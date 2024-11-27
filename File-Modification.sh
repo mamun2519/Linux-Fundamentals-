@@ -13,4 +13,4 @@ command 2=> sudo chgrp students ~/example.txt
 
 
 Verify the changes using appropriate commands.
-command=>
+command=> ls -l ~/example.txt
