@@ -2,11 +2,15 @@
 command=> touch  ~/example.txt
 
 Change the owner of example.txt to a user named student
-command=> sudo chown student ~/example.txt
+command 1=> sudo useradd student
+command 2=> sudo chown student ~/example.txt
 
 
 Change the group of example.txt to a group named students.
-command=>
+command 1=> sudo groupadd students
+command 2=> sudo chgrp students ~/example.txt
+
+
 
 Verify the changes using appropriate commands.
 command=>
