@@ -2,8 +2,14 @@
 command=>
 
 
-Set the home directory of the user developer to /home/developer_home.
-Assign the shell /bin/sh to the user developer.
+2. Set the home directory of the user developer to /home/developer_home.
+command=>
+
+
+3. Assign the shell /bin/sh to the user developer.
+command=>
+
+
 Verify the new user's information.
 Change the username of the user developer to devuser.
 Add devuser to a group named devgroup.
