@@ -43,4 +43,5 @@ command 2=> ls -l ~/hardlink.txt
 
 
 10. Find all .txt files in your home directory. ( use find command. Run find --help for usage)
-command=>
+command=> find ~ -name "*.txt"
+
