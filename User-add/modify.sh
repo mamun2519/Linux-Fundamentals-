@@ -19,5 +19,10 @@ command=>
 
 6. Add devuser to a group named devgroup.
 command=>
-Set the password of devuser to devpass. ( hint: use passwd command. Run passwd --help to see available options)
-Verify the changes made to the user.
+
+
+7. Set the password of devuser to devpass. ( hint: use passwd command. Run passwd --help to see available options)
+command=>
+
+8. Verify the changes made to the user.
+command=>
