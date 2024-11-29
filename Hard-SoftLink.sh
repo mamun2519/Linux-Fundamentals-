@@ -15,8 +15,21 @@ command=>
 
 5. Create a file named datafile.txt in your home directory.
 command=>
-Create a hard link named hardlink.txt pointing to datafile.txt.
-Verify the hard link and ensure it correctly points to the file.
-Check the inode of both datafile.txt and hardlink.txt
-Delete the original file datafile.txt and observe the status of the hard link.
-Find all .txt files in your home directory. ( use find command. Run find --help for usage)
+
+6. Create a hard link named hardlink.txt pointing to datafile.txt.
+command=>
+
+
+7. Verify the hard link and ensure it correctly points to the file.
+command=>
+
+8. Check the inode of both datafile.txt and hardlink.txt
+command=>
+
+
+9. Delete the original file datafile.txt and observe the status of the hard link.
+command=>
+
+
+10. Find all .txt files in your home directory. ( use find command. Run find --help for usage)
+command=>
