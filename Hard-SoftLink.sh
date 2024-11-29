@@ -14,10 +14,13 @@ command=> ln -s ~/original.txt ~/softlink.txt
 
 
 4. Delete the original file original.txt and observe the status of the symbolic link.
-command=>
+command 1=> rm ~/original.txt
+command 2=> ls -l ~/softlink.txt
+
 
 5. Create a file named datafile.txt in your home directory.
-command=>
+command=> touch ~/datafile.txt
+
 
 6. Create a hard link named hardlink.txt pointing to datafile.txt.
 command=>
