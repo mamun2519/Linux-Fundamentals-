@@ -1,4 +1,7 @@
-Create a new user named developer.
+1. Create a new user named developer.
+command=>
+
+
 Set the home directory of the user developer to /home/developer_home.
 Assign the shell /bin/sh to the user developer.
 Verify the new user's information.
