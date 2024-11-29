@@ -1,13 +1,16 @@
 1. Create a file named original.txt in your home directory.
-command=>
+command=> touch ~/original.txt
+
 
 
 2. Create a symbolic link named softlink.txt pointing to original.txt.
-command=>
+command=> ln -s ~/original.txt ~/softlink.txt
+
 
 
 3. Verify the symbolic link and ensure it points to the correct file.
-command=>
+command=> ln -s ~/original.txt ~/softlink.txt
+
 
 
 4. Delete the original file original.txt and observe the status of the symbolic link.
