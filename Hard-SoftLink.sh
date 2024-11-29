@@ -23,11 +23,13 @@ command=> touch ~/datafile.txt
 
 
 6. Create a hard link named hardlink.txt pointing to datafile.txt.
-command=>
+command=> ln ~/datafile.txt ~/hardlink.txt
+
 
 
 7. Verify the hard link and ensure it correctly points to the file.
-command=>
+command=> ls -l ~/datafile.txt ~/hardlink.txt
+
 
 8. Check the inode of both datafile.txt and hardlink.txt
 command=>
