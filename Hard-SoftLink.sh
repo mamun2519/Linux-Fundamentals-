@@ -32,11 +32,14 @@ command=> ls -l ~/datafile.txt ~/hardlink.txt
 
 
 8. Check the inode of both datafile.txt and hardlink.txt
-command=>
+command=> ls -i ~/datafile.txt ~/hardlink.txt
+
 
 
 9. Delete the original file datafile.txt and observe the status of the hard link.
-command=>
+command 1=>rm ~/datafile.txt
+command 2=> ls -l ~/hardlink.txt
+
 
 
 10. Find all .txt files in your home directory. ( use find command. Run find --help for usage)
